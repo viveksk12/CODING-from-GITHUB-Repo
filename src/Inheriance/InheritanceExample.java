@@ -18,8 +18,8 @@ public class InheritanceExample {
  public static void main(String[] args) {
      Dog myDog = new Dog();
      
-     myDog.eat();  // This is from the superclass
-     myDog.bark(); // This is from the subclass
+     myDog.eat();  // This is from the parent class
+     myDog.bark(); // This is from the child class
      
      
      Animal myAnimal = new Animal();
